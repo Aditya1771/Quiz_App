@@ -103,7 +103,8 @@ export default function Header() {
                   className="rounded-full border-2 border-indigo-300 shadow-md hover:border-indigo-500 transition-all duration-200"
                 />
               ) : (
-                <FaUserCircle className="text-4xl text-indigo-500 hover:text-indigo-600 transition-all duration-200" /> {/* Larger icon */}
+                <FaUserCircle className="text-4xl text-indigo-500 hover:text-indigo-600 transition-all duration-200" />
+                /* Larger icon */
               )}
             </button>
 
